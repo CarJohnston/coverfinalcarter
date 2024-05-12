@@ -1,0 +1,132 @@
+/* this is where all of your CSS styles go */
+@font-face {
+	font-family: Lemon Milk;
+	src: url(../fonts/LEMONMILK-Regular.otf);
+}
+
+.title {
+text-align: center;
+padding-top: 70px;
+	animation: faded 3s forwards;
+	animation-iteration-count: infinite;
+
+}
+
+.grid-container {
+  width: 600px;
+  height: 800px;
+  display: grid;
+  grid-template-columns: repeat(6, 8fr); /* Three columns with equal width */
+  grid-column-gap: 0px; /* Gap between grid items */
+  grid-row-gap: 0px;
+  position: absolute;
+  left: 49%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  background-color: #201d1f;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+}
+
+.grid-container2 {
+  width: 100px;
+  height: 100px;
+  display: grid;
+  grid-template-columns: repeat(5, 5fr); /* Three columns with equal width */
+  grid-column-gap: 0px; /* Gap between grid items */
+  grid-row-gap: 0px;
+
+  }
+
+  .grid-item2 {
+  width: 17px;
+  height: 17px;
+  background-color: #201d1f;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+}
+
+.rectangle {
+	font-family: Lemon Milk;
+	color: #201d1f;
+	font-size: 60px;
+	text-align: center;
+	height: 410px;
+	width: 205px;
+	background-color: #ffe900;
+	position: absolute;
+	left: 68.7%;
+	top: 51.5%;
+	transform: translate(-50%,-50%);
+}
+
+
+.rectangle3 {
+	height: 410px;
+	width: 205px;
+	background-color: #201d1f;
+	position: absolute;
+	left: 51.5%;
+	top: 26%;
+	animation: fade 3s forwards;
+	animation-iteration-count: infinite;
+}
+
+@keyframes faded {
+	0% {opacity: 0;}
+	50% { opacity: 1;}
+	100% { opacity:0; }
+}
+
+@keyframes fade {
+	0% {opacity: 1;}
+	50% { opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.rectangle2 {
+	font-family: Lemon Milk;
+	color: #201d1f;
+	font-size: 60px;
+	text-align: center;
+	height: 101px;
+	width: 490px;
+	background-color: #ffe900;
+	position: absolute;
+	left: 44.7%;
+	top: 91.3%;
+	transform: translate(-50%,-50%);
+}
+
+.rectangle4 {
+	height: 101px;
+	width: 490px;
+	background-color: #201d1f;
+	position: absolute;
+	left: 3.8%;
+	top: 85%;
+	animation: faded 3s forwards;
+	animation-iteration-count: infinite;
+}
+
+.name { 
+	text-align: center;
+	padding-top: 10px;
+	animation: fade 3s forwards;
+	animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
